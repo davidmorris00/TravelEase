@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Blog | TravelEase</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+background:#0088cc;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#fff;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+font-size:17px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.banner{
+height:300px;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1500&q=80");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.banner h1{
+font-size:50px;
+}
+
+.container{
+width:90%;
+margin:60px auto;
+}
+
+.container h2{
+text-align:center;
+color:#0088cc;
+margin-bottom:15px;
+}
+
+.container p{
+text-align:center;
+margin-bottom:40px;
+}
+
+.blogs{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:25px;
+}
+
+.blog{
+width:31%;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.blog:hover{
+transform:translateY(-8px);
+}
+
+.blog img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.blog h3{
+padding:15px;
+color:#0088cc;
+}
+
+.blog p{
+padding:0 15px 20px;
+text-align:left;
+line-height:25px;
+}
+
+.btn{
+display:inline-block;
+margin:0 15px 20px;
+padding:10px 20px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:#e68900;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:60px;
+}
+
+@media(max-width:900px){
+
+.blog{
+width:48%;
+}
+
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:block;
+margin:10px 0;
+}
+
+.banner h1{
+font-size:35px;
+}
+
+.blog{
+width:100%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">TravelEase</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="banner">
+
+<div>
+
+<h1>Travel Blog</h1>
+
+<p>Travel Tips, Guides & Inspiration</p>
+
+</div>
+
+</section>
+
+<div class="container">
+
+<h2>Latest Articles</h2>
+
+<p>Explore helpful travel guides and discover the best places to visit in Dubai.</p>
+
+<div class="blogs">
+
+<div class="blog">
+
+<img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80">
+
+<h3>Top 10 Places to Visit in Dubai</h3>
+
+<p>
+Discover iconic attractions including Burj Khalifa, Dubai Marina, Palm Jumeirah, Dubai Mall and many more exciting places.
+</p>
+
+<a href="#" class="btn">Read More</a>
+
+</div>
+
+<div class="blog">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80">
+
+<h3>Best Desert Safari Experience</h3>
+
+<p>
+Enjoy dune bashing, camel rides, BBQ dinner and traditional entertainment in the beautiful Dubai desert.
+</p>
+
+<a href="#" class="btn">Read More</a>
+
+</div>
+
+<div class="blog">
+
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80">
+
+<h3>Travel Tips for First-Time Visitors</h3>
+
+<p>
+Learn about the best season to visit Dubai, local customs, transport options and useful travel advice.
+</p>
+
+<a href="#" class="btn">Read More</a>
+
+</div>
+
+<div class="blog">
+
+<img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80">
+
+<h3>Luxury Yacht Cruise in Dubai</h3>
+
+<p>
+Experience a relaxing yacht cruise with stunning views of Dubai Marina and the Arabian Gulf.
+</p>
+
+<a href="#" class="btn">Read More</a>
+
+</div>
+
+<div class="blog">
+
+<img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80">
+
+<h3>Shopping in Dubai</h3>
+
+<p>
+Explore Dubai Mall, Mall of the Emirates, traditional souks and luxury shopping destinations.
+</p>
+
+<a href="#" class="btn">Read More</a>
+
+</div>
+
+<div class="blog">
+
+<img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80">
+
+<h3>Why Dubai is a Perfect Holiday Destination</h3>
+
+<p>
+From world-famous attractions to exciting adventures, discover why millions of tourists choose Dubai every year.
+</p>
+
+<a href="#" class="btn">Read More</a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>TravelEase</h2>
+
+<p>Explore • Dream • Discover</p>
+
+<br>
+
+<p>© 2026 TravelEase. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
